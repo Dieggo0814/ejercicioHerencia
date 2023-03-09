@@ -15,6 +15,10 @@ public class Abogado extends Empleado{
 
     @Override
     public String getMesVacaciones() {
-        return super.getMesVacaciones();
+        return "Julio";
+    }
+
+    public void mostrarMensaje(){
+        System.out.println("Soy un abogado");
     }
 }
